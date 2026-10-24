@@ -1,0 +1,51 @@
+
+# FastAPI - Backend
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Configuration
+pydantic
+pydantic-settings
+
+# PostgreSQL Database
+sqlalchemy
+psycopg[binary]
+
+# Authentication and Security
+pwdlib[argon2]
+PyJWT
+email-validator
+
+# LangChain - RAG
+langchain
+langchain-core
+langchain-community
+
+# LLM - Gemini and Groq
+langchain-google-genai
+langchain-groq
+
+# Gemini Embeddings
+google-genai
+
+# Document Loaders
+pypdf
+
+# Text Splitting
+langchain-text-splitters
+
+# Vector Database - Pinecone
+pinecone
+
+# Hybrid Retrieval - BM25
+rank-bm25
+
+# Multi-Agent System - LangGraph
+langgraph
+
+# Evaluation
+numpy
+
+# Tracing and Monitoring
+langsmith
