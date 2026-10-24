@@ -1,0 +1,39 @@
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python generated files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Private environment variables
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+
+# Temporary uploaded files
+uploads/
+temp/
+*.tmp
+
+# Generated logs
+*.log
+
+# Local tools
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local database backups
+*.dump
+*.backup
